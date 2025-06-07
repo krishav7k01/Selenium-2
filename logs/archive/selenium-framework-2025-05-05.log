@@ -1,0 +1,459 @@
+2025-05-05 12:44:55 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/krishav/Desktop/JAVA/Selenium/HybridFrameworkProj/src/test/resources/testng.xml
+
+2025-05-05 12:45:00 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-05 12:45:04 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithInvalidCredential
+2025-05-05 12:45:07 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 12:45:09 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithValidCredential
+2025-05-05 12:45:11 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 12:45:11 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Incorrect warning message.
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-05-05 12:45:14 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 12:45:15 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Incorrect warning message.
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 20 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/lx/tx7hq4vn42j2kndg4xwwqwdh0000gn/T/testng-eclipse--1753513156/testng-customsuite.xml
+
+2025-05-05 12:46:19 INFO  [main] org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+2025-05-05 12:46:22 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-05 12:46:24 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithInvalidCredential
+2025-05-05 12:46:26 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 12:46:27 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithValidCredential
+2025-05-05 12:46:30 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 12:46:30 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Incorrect warning message.
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-05-05 12:46:33 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 12:46:33 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Incorrect warning message.
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-05-05 12:46:33 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@616f81b5: 28 ms
+2025-05-05 12:46:33 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@7227926b: 5 ms
+2025-05-05 12:46:33 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@422ba9b7: 4 ms
+2025-05-05 12:46:33 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3e2c8ef: 1 ms
+2025-05-05 12:46:33 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@31f1b268: 2 ms
+2025-05-05 12:46:33 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@3ec7ad61: 0 ms
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/lx/tx7hq4vn42j2kndg4xwwqwdh0000gn/T/testng-eclipse-167328497/testng-customsuite.xml
+
+2025-05-05 13:02:22 INFO  [main] org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+2025-05-05 13:02:29 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-05 13:02:30 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithInvalidCredential
+2025-05-05 13:02:31 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@216c22ce: 22 ms
+2025-05-05 13:02:31 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@93bf0e0: 1 ms
+2025-05-05 13:02:31 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@52ecc989: 2 ms
+2025-05-05 13:02:31 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@238291d4: 2 ms
+2025-05-05 13:02:31 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@72a8361b: 3 ms
+2025-05-05 13:02:31 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@36478bce: 0 ms
+2025-05-05 13:02:45 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/krishav/Desktop/JAVA/Selenium/HybridFrameworkProj/src/test/resources/testng.xml
+
+2025-05-05 13:02:48 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-05 13:02:49 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithInvalidCredential
+2025-05-05 13:02:52 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 13:02:55 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithValidCredential
+2025-05-05 13:02:57 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 13:02:59 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithValidCredential
+2025-05-05 13:03:01 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 13:03:02 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithValidCredential
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 6 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/lx/tx7hq4vn42j2kndg4xwwqwdh0000gn/T/testng-eclipse-361012604/testng-customsuite.xml
+
+2025-05-05 13:06:31 INFO  [main] org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+2025-05-05 13:06:36 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-05 13:06:38 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithInvalidCredential
+2025-05-05 13:06:38 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@216c22ce: 18 ms
+2025-05-05 13:06:38 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@93bf0e0: 1 ms
+2025-05-05 13:06:38 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@52ecc989: 3 ms
+2025-05-05 13:06:38 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@238291d4: 1 ms
+2025-05-05 13:06:38 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@72a8361b: 1 ms
+2025-05-05 13:06:38 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@36478bce: 0 ms
+2025-05-05 13:10:38 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/krishav/Desktop/JAVA/Selenium/HybridFrameworkProj/src/test/resources/testng.xml
+
+2025-05-05 13:10:42 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-05 13:10:44 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithInvalidCredential
+2025-05-05 13:10:47 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 13:10:49 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithValidCredential
+2025-05-05 13:10:51 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 13:10:52 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithValidCredential
+2025-05-05 13:10:54 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 13:10:57 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithValidCredential
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/lx/tx7hq4vn42j2kndg4xwwqwdh0000gn/T/testng-eclipse--2026039616/testng-customsuite.xml
+
+2025-05-05 13:26:33 INFO  [main] org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+2025-05-05 13:26:58 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@71668a67: 22 ms
+2025-05-05 13:26:58 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@65b73689: 0 ms
+2025-05-05 13:26:58 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@1cb44a2f: 4 ms
+2025-05-05 13:26:58 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@9d3a7a1: 1 ms
+2025-05-05 13:26:58 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5a2035e1: 2 ms
+2025-05-05 13:26:58 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4df7b4ac: 0 ms
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/lx/tx7hq4vn42j2kndg4xwwqwdh0000gn/T/testng-eclipse-857622742/testng-customsuite.xml
+
+2025-05-05 13:28:07 INFO  [main] org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+2025-05-05 13:28:24 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@71668a67: 17 ms
+2025-05-05 13:28:24 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@65b73689: 1 ms
+2025-05-05 13:28:24 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@1cb44a2f: 4 ms
+2025-05-05 13:28:24 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@9d3a7a1: 1 ms
+2025-05-05 13:28:24 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5a2035e1: 2 ms
+2025-05-05 13:28:24 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4df7b4ac: 0 ms
+2025-05-05 13:31:42 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/krishav/Desktop/JAVA/Selenium/HybridFrameworkProj/src/test/resources/testng.xml
+
+2025-05-05 13:31:47 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-05 13:31:49 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithInvalidCredential
+2025-05-05 13:31:53 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 13:31:55 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithValidCredential
+2025-05-05 13:31:57 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 13:31:58 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithValidCredential
+2025-05-05 13:32:00 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 13:32:01 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithValidCredential
+2025-05-05 15:26:50 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/krishav/Desktop/JAVA/Selenium/HybridFrameworkProj/src/test/resources/testng.xml
+
+2025-05-05 15:26:57 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-05 15:26:59 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithInvalidCredential
+2025-05-05 15:27:00 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 15:27:02 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithValidCredential
+2025-05-05 15:27:04 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 15:27:06 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithValidCredential
+2025-05-05 15:27:08 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-05 15:27:09 INFO  [main] c.h.listeners.MyListeners - Test passed: verifyLoginWithValidCredential
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/lx/tx7hq4vn42j2kndg4xwwqwdh0000gn/T/testng-eclipse--1646024912/testng-customsuite.xml
+
+2025-05-05 15:29:03 INFO  [main] org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+2025-05-05 15:29:11 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@4fea840f: 23 ms
+2025-05-05 15:29:11 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5b8853: 1 ms
+2025-05-05 15:29:11 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@66e341e9: 6 ms
+2025-05-05 15:29:11 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@5939e24: 4 ms
+2025-05-05 15:29:11 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@46468f0: 3 ms
+2025-05-05 15:29:11 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@5f8f1712: 0 ms
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/lx/tx7hq4vn42j2kndg4xwwqwdh0000gn/T/testng-eclipse-1723291099/testng-customsuite.xml
+
+2025-05-05 17:25:43 INFO  [main] org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+2025-05-05 17:25:50 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@75e80a97: 19 ms
+2025-05-05 17:25:50 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5d1bdd4a: 0 ms
+2025-05-05 17:25:50 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@546ed2a0: 3 ms
+2025-05-05 17:25:50 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2055833f: 1 ms
+2025-05-05 17:25:50 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@34a6d9db: 2 ms
+2025-05-05 17:25:50 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@52ecc989: 0 ms

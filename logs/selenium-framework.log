@@ -1,0 +1,1039 @@
+2025-05-06 02:12:25 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/krishav/Desktop/JAVA/Selenium/HybridFrameworkProj/src/test/resources/testng.xml
+
+2025-05-06 02:12:30 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-06 02:12:30 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithInvalidCredential
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "com.hybridframework.utils.reports.ExtentManager.extent" is null
+	at com.hybridframework.utils.reports.ExtentManager.startTestCase(ExtentManager.java:37)
+	at com.hybridframework.listeners.MyListeners.onTestStart(MyListeners.java:22)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:122)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:648)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-05-06 02:12:30 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithInvalidCredential
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(java.lang.Throwable)" because the return value of "com.hybridframework.utils.reports.ExtentManager.getTest()" is null
+	at com.hybridframework.listeners.MyListeners.onTestFailure(MyListeners.java:35)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-05-06 02:15:11 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/krishav/Desktop/JAVA/Selenium/HybridFrameworkProj/src/test/resources/testng.xml
+
+2025-05-06 02:15:16 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-06 02:15:20 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 02:15:32 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 02:15:35 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 02:58:38 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/krishav/Desktop/JAVA/Selenium/HybridFrameworkProj/src/test/resources/testng.xml
+
+2025-05-06 02:58:44 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-06 02:58:49 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 02:58:54 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 02:58:56 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.BaseUtil.assertEquals(BaseUtil.java:283)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.BaseUtil.assertEquals(BaseUtil.java:281)
+	... 27 common frames omitted
+2025-05-06 02:58:59 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 02:58:59 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.BaseUtil.assertEquals(BaseUtil.java:283)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.BaseUtil.assertEquals(BaseUtil.java:281)
+	... 27 common frames omitted
+2025-05-06 02:59:51 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/krishav/Desktop/JAVA/Selenium/HybridFrameworkProj/src/test/resources/testng.xml
+
+2025-05-06 02:59:55 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-06 02:59:59 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 03:00:05 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 03:00:08 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.BaseUtil.assertEquals(BaseUtil.java:283)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.BaseUtil.assertEquals(BaseUtil.java:281)
+	... 27 common frames omitted
+2025-05-06 03:00:10 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 03:00:11 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.BaseUtil.assertEquals(BaseUtil.java:283)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.BaseUtil.assertEquals(BaseUtil.java:281)
+	... 27 common frames omitted
+2025-05-06 03:01:37 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/krishav/Desktop/JAVA/Selenium/HybridFrameworkProj/src/test/resources/testng.xml
+
+2025-05-06 03:01:42 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-06 03:01:46 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 03:01:52 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 03:01:53 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.BaseUtil.assertEquals(BaseUtil.java:283)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.BaseUtil.assertEquals(BaseUtil.java:281)
+	... 27 common frames omitted
+2025-05-06 03:01:55 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 03:01:56 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.BaseUtil.assertEquals(BaseUtil.java:283)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.BaseUtil.assertEquals(BaseUtil.java:281)
+	... 27 common frames omitted
+2025-05-06 03:06:02 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/krishav/Desktop/JAVA/Selenium/HybridFrameworkProj/src/test/resources/testng.xml
+
+2025-05-06 03:06:07 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-06 03:06:13 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 03:06:19 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 03:06:19 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.BaseUtil.assertEquals(BaseUtil.java:283)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.BaseUtil.assertEquals(BaseUtil.java:281)
+	... 27 common frames omitted
+2025-05-06 03:06:21 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 03:06:24 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.BaseUtil.assertEquals(BaseUtil.java:283)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.BaseUtil.assertEquals(BaseUtil.java:281)
+	... 27 common frames omitted
+2025-05-06 18:24:02 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/krishav/Desktop/JAVA/Selenium/HybridFrameworkProj/src/test/resources/testng.xml
+
+2025-05-06 18:24:07 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-06 18:24:12 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 18:24:16 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 18:24:21 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 18:28:35 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/krishav/Desktop/JAVA/Selenium/HybridFrameworkProj/src/test/resources/testng.xml
+
+2025-05-06 18:28:40 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-06 18:28:45 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 18:28:49 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 18:28:50 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:16)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:14)
+	... 27 common frames omitted
+2025-05-06 18:28:52 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 18:28:53 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:16)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:14)
+	... 27 common frames omitted
+2025-05-06 18:31:20 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/krishav/Desktop/JAVA/Selenium/HybridFrameworkProj/src/test/resources/testng.xml
+
+2025-05-06 18:31:25 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-06 18:31:30 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 18:31:34 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 18:31:35 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:16)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:14)
+	... 27 common frames omitted
+2025-05-06 18:31:38 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 18:31:39 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:16)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:14)
+	... 27 common frames omitted
+2025-05-06 18:33:28 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/krishav/Desktop/JAVA/Selenium/HybridFrameworkProj/src/test/resources/testng.xml
+
+2025-05-06 18:33:33 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 18:33:37 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 18:33:38 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:16)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:14)
+	... 27 common frames omitted
+2025-05-06 18:33:40 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 18:33:41 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:16)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:14)
+	... 27 common frames omitted
+2025-05-06 18:33:44 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/lx/tx7hq4vn42j2kndg4xwwqwdh0000gn/T/testng-eclipse--1939817803/testng-customsuite.xml
+
+2025-05-06 19:04:46 INFO  [main] org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+2025-05-06 19:04:58 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@37c36608: 23 ms
+2025-05-06 19:04:58 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@77865933: 4 ms
+2025-05-06 19:04:58 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@737d100a: 5 ms
+2025-05-06 19:04:58 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4375b013: 2 ms
+2025-05-06 19:04:58 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@3c98781a: 6 ms
+2025-05-06 19:04:58 INFO  [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@3f736a16: 0 ms
+2025-05-06 19:06:20 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/krishav/Desktop/JAVA/Selenium/HybridFrameworkProj/src/test/resources/testng.xml
+
+2025-05-06 19:06:25 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 19:06:28 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 19:06:29 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:16)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:14)
+	... 27 common frames omitted
+2025-05-06 19:06:31 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 19:06:32 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:16)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:14)
+	... 27 common frames omitted
+2025-05-06 19:06:34 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-06 19:10:13 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 19:10:17 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 19:10:18 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:16)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:14)
+	... 31 common frames omitted
+2025-05-06 19:10:20 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 19:10:21 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:16)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:14)
+	... 31 common frames omitted
+2025-05-06 19:10:23 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-06 19:17:49 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 19:17:52 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 19:17:54 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:16)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:14)
+	... 31 common frames omitted
+2025-05-06 19:17:56 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 19:17:57 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.AssertionError: Matched:Test Passes | Expected: Warning: No match for E-Mail Address and/or Password., but got: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:16)
+	at com.hybridframework.testcases.login.LoginTest.verifyLoginWithValidCredential(LoginTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.AssertionError: Matched:Test Passes expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.hybridframework.utils.AssertionUtil.hardAssertEquals(AssertionUtil.java:14)
+	... 31 common frames omitted
+2025-05-06 19:17:59 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-06 22:42:55 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 22:42:55 WARN  [main] c.h.listeners.MyListeners - Test skipped: verifyLoginWithValidCredential
+2025-05-06 22:42:55 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 22:42:55 WARN  [main] c.h.listeners.MyListeners - Test skipped: verifyLoginWithValidCredential
+2025-05-06 22:42:55 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithValidCredential
+2025-05-06 22:42:55 WARN  [main] c.h.listeners.MyListeners - Test skipped: verifyLoginWithValidCredential
+2025-05-06 22:42:55 INFO  [main] c.h.listeners.MyListeners - Test started: verifyLoginWithInvalidCredential
+2025-05-06 22:42:55 WARN  [main] c.h.listeners.MyListeners - Test skipped: verifyLoginWithInvalidCredential
+2025-05-06 22:46:46 ERROR [main] c.h.listeners.MyListeners - Test failed: verifyLoginWithValidCredential
+java.lang.RuntimeException: java.lang.NoClassDefFoundError: org/apache/logging/log4j/util/Lazy
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:58)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.NoClassDefFoundError: org/apache/logging/log4j/util/Lazy
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.<init>(ClassLoaderContextSelector.java:55)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.createContextSelector(Log4jContextFactory.java:108)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.<init>(Log4jContextFactory.java:60)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128)
+	at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:304)
+	at java.base/java.lang.Class.newInstance(Class.java:725)
+	at org.apache.logging.log4j.LogManager.<clinit>(LogManager.java:95)
+	at org.apache.poi.ooxml.POIXMLDocumentPart.<clinit>(POIXMLDocumentPart.java:56)
+	at com.hybridframework.utils.getTestDataExcel.getTestData(getTestDataExcel.java:12)
+	at com.hybridframework.testcases.login.LoginTest.getLoginData(LoginTest.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	... 29 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.logging.log4j.util.Lazy
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 46 common frames omitted
