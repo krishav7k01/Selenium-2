@@ -23,7 +23,7 @@ import com.hybridframework.utils.reports.ExtentManager;
 
 public class BaseTest{
 	// BeforeMethod: Setup WebDriver and perform setup operations
-	
+	// Just make github commit dont worry
 	
     @BeforeMethod
     @Parameters("browser")
